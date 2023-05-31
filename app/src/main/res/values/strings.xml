@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AplikasiMakanan</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="detail">Lemonade berry adalah minuman dengan perpaduan rasa lemon dan strawberry yang sangat menyegarkan</string>
+    <string name="detailm">Nasi Goreng merupakan sajian nasi yang menghasilkan cita rasa berbeda karena dicampur dengan bumbu-bumbu seperti garam, bawang putih, bawang merah, merica, rempah-rempah tertentu dan kecap manis</string>
+</resources>

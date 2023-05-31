@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragment_makanan">
+
+    <fragment
+        android:id="@+id/fragment_makanan"
+        android:name="com.example.aplikasimakanan.fragment_makanan"
+        android:label="fragment_makanan"
+        tools:layout="@layout/fragment_makanan" >
+        <action
+            android:id="@+id/action_fragment_makanan_to_fragment_detailmkn"
+            app:destination="@id/fragment_detailmkn" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_minuman"
+        android:name="com.example.aplikasimakanan.fragment_minuman"
+        android:label="fragment_minuman"
+        tools:layout="@layout/fragment_minuman" >
+        <action
+            android:id="@+id/action_fragment_minuman_to_fragment_detail2"
+            app:destination="@id/fragment_detail" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_userr"
+        android:name="com.example.aplikasimakanan.fragmentuser"
+        android:label="fragment_userr"
+        tools:layout="@layout/fragment_user" />
+    <fragment
+        android:id="@+id/fragment_pesanan"
+        android:name="com.example.aplikasimakanan.fragment_pesanan"
+        android:label="fragment_pesanan"
+        tools:layout="@layout/fragment_pesanan" />
+    <fragment
+        android:id="@+id/fragment_detail"
+        android:name="com.example.aplikasimakanan.fragment_detail"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail" >
+        <action
+            android:id="@+id/action_fragment_detail_to_fragment_pesanan"
+            app:destination="@id/fragment_pesanan" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_detailmkn"
+        android:name="com.example.aplikasimakanan.fragment_detailmkn"
+        android:label="fragment_detailmkn"
+        tools:layout="@layout/fragment_detailmkn" >
+        <action
+            android:id="@+id/action_fragment_detailmkn_to_fragment_pesanan"
+            app:destination="@id/fragment_pesanan" />
+    </fragment>
+</navigation>

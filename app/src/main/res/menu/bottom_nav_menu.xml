@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/fragment_makanan"
+        android:title="makanan"
+        android:icon="@drawable/ic_mknn"
+        />
+    <item
+        android:id="@+id/fragment_minuman"
+        android:title="minuman"
+        android:icon="@drawable/ic_minum"
+        />
+    <item
+        android:id="@+id/fragment_pesanan"
+        android:title="pesanan"
+        android:icon="@drawable/ic_psn"
+        />
+    <item
+        android:id="@+id/fragment_userr"
+        android:title="user"
+        android:icon="@drawable/ic_user"
+        />
+
+</menu>

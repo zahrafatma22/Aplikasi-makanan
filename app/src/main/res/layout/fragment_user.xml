@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragmentuser"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Akun Anda"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/iv_user"
+        tools:layout_editor_absoluteX="143dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ImageView
+        android:id="@+id/iv_user"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_user"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.112" />
+   <LinearLayout
+       android:id="@+id/ly_2"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintTop_toBottomOf="@id/iv_user"
+       android:padding="20dp">
+
+       <TextView
+           android:id="@+id/tv_nm"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Nama: Fatma Azzahra"
+           android:textColor="@color/black"
+           android:textSize="20sp"/>
+       <TextView
+           android:id="@+id/tv_em"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Email: fatmaxxxx3@gmail.com"
+           android:textColor="@color/black"
+           android:textSize="20sp"/>
+       <TextView
+           android:id="@+id/tv_telp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="No.Hp: 08xxxxxxxx5"
+           android:textColor="@color/black"
+           android:textSize="20sp"/>
+       <TextView
+           android:id="@+id/tv_alamat"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Alamat: Jl.tanjakan no.99f cakung"
+           android:textColor="@color/black"
+           android:textSize="20sp"/>
+   </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGOUT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ly_2"
+        android:backgroundTint="@color/merah"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
